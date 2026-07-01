@@ -16,12 +16,12 @@ const prefersReducedMotion =
   window.matchMedia('(prefers-reduced-motion: reduce)').matches
 
 const HOSPITAL = {
-  name: 'Santkrupa Hospital',
+  name: 'Santkrupa Hospital Hospital',
   phoneDisplay: '+91 20 4123 5678',
   phoneTel: '+912041235678',
   emergencyDisplay: '+91 90000 11222',
   emergencyTel: '+919000011222',
-  email: 'care@santkrupahospital.in',
+  email: 'care@Santkrupa Hospitalhospital.in',
   address: 'Alandi Road, Near Alandi Devachi, Pune, Maharashtra 412105',
   opdHours: 'OPD: Mon-Sat, 9:00 AM - 8:00 PM',
 }
@@ -67,7 +67,7 @@ function Navbar() {
               <Plus className="h-5 w-5" strokeWidth={2.6} />
             </span>
             <span className={`font-display font-bold text-lg tracking-tight ${scrolled ? 'text-ink' : 'text-white'}`}>
-              Santkrupa
+              Santkrupa Hospital Hospital
             </span>
           </a>
 
@@ -110,7 +110,7 @@ function Navbar() {
               <span className="grid h-9 w-9 place-items-center rounded-xl bg-primary">
                 <Plus className="h-5 w-5" strokeWidth={2.6} />
               </span>
-              Santkrupa
+              Santkrupa Hospital
             </span>
             <button onClick={() => setOpen(false)} className="text-white grid h-9 w-9 place-items-center" aria-label="Close menu">
               <X className="h-7 w-7" />
@@ -186,7 +186,7 @@ function Hero() {
           <span className="hero-line-2 block font-serif italic font-medium text-primary-light">like family</span>
         </h1>
         <p className="hero-meta mt-8 max-w-xl text-white/75 text-base sm:text-lg leading-relaxed">
-          Santkrupa Hospital brings trusted doctors, 24/7 emergency services and modern
+          Santkrupa Hospital Hospital brings trusted doctors, 24/7 emergency services and modern
           diagnostics to the heart of Alandi - compassionate treatment, close to home.
         </p>
         <div className="hero-cta mt-10 flex flex-wrap gap-3">
