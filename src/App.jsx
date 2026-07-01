@@ -16,7 +16,7 @@ const prefersReducedMotion =
   window.matchMedia('(prefers-reduced-motion: reduce)').matches
 
 const HOSPITAL = {
-  name: 'Santkrupa Hospital Hospital',
+  name: 'Santkrupa Hospital ',
   phoneDisplay: '+91 20 4123 5678',
   phoneTel: '+912041235678',
   emergencyDisplay: '+91 90000 11222',
@@ -67,7 +67,7 @@ function Navbar() {
               <Plus className="h-5 w-5" strokeWidth={2.6} />
             </span>
             <span className={`font-display font-bold text-lg tracking-tight ${scrolled ? 'text-ink' : 'text-white'}`}>
-              Santkrupa Hospital Hospital
+              Santkrupa Hospital 
             </span>
           </a>
 
@@ -186,7 +186,7 @@ function Hero() {
           <span className="hero-line-2 block font-serif italic font-medium text-primary-light">like family</span>
         </h1>
         <p className="hero-meta mt-8 max-w-xl text-white/75 text-base sm:text-lg leading-relaxed">
-          Santkrupa Hospital Hospital brings trusted doctors, 24/7 emergency services and modern
+          Santkrupa Hospital  brings trusted doctors, 24/7 emergency services and modern
           diagnostics to the heart of Alandi - compassionate treatment, close to home.
         </p>
         <div className="hero-cta mt-10 flex flex-wrap gap-3">
