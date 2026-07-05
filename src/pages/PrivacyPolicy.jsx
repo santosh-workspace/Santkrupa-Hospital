@@ -4,7 +4,7 @@ export default function PrivacyPolicy() {
   return (
     <LegalLayout title="Privacy Policy" updated="1 July 2026">
       <p>
-        Santkrupa Hospital ("we", "our", "us") is committed to protecting the privacy of every
+        संतकृपा हॉस्पिटल ("we", "our", "us") is committed to protecting the privacy of every
         patient and visitor. This policy explains how we collect, use and safeguard your
         personal and health information when you use our website or services.
       </p>

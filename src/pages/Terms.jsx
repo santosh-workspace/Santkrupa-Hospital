@@ -4,7 +4,7 @@ export default function Terms() {
   return (
     <LegalLayout title="Terms of Use" updated="1 July 2026">
       <p>
-        Welcome to the Santkrupa Hospital website. By accessing or using this site, you agree to
+        Welcome to the संतकृपा हॉस्पिटल website. By accessing or using this site, you agree to
         the terms set out below. Please read them carefully.
       </p>
 
@@ -28,7 +28,7 @@ export default function Terms() {
         <p>
           You agree to use this website lawfully and not to misuse, disrupt or attempt
           unauthorised access to any part of it. All content, logos and materials remain the
-          property of Santkrupa Hospital.
+          property of संतकृपा हॉस्पिटल.
         </p>
       </LegalSection>
 

@@ -10,7 +10,7 @@ export default function LegalLayout({ title, updated, children }) {
             <span className="grid h-9 w-9 place-items-center rounded-xl bg-primary text-white">
               <Plus className="h-5 w-5" strokeWidth={2.6} />
             </span>
-            <span className="font-display font-bold text-lg tracking-tight text-ink">Santkrupa Hospital</span>
+            <span className="font-display font-bold text-lg tracking-tight text-ink">संतकृपा हॉस्पिटल</span>
           </Link>
           <Link to="/" className="inline-flex items-center gap-1.5 text-sm font-medium text-primary lift-on-hover">
             <ArrowLeft className="h-4 w-4" /> Back to site
@@ -25,7 +25,7 @@ export default function LegalLayout({ title, updated, children }) {
       </main>
       <footer className="border-t border-divider">
         <div className="max-w-3xl mx-auto px-6 sm:px-10 py-6 text-xs text-muted">
-          © {new Date().getFullYear()} Santkrupa Hospital, Alandi, Pune.
+          © {new Date().getFullYear()} संतकृपा हॉस्पिटल, Alandi, Pune.
         </div>
       </footer>
     </div>

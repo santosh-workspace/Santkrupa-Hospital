@@ -16,12 +16,12 @@ const prefersReducedMotion =
   window.matchMedia('(prefers-reduced-motion: reduce)').matches
 
 const HOSPITAL = {
-  name: 'Santkrupa Hospital ',
+  name: 'संतकृपा हॉस्पिटल ',
   phoneDisplay: '+91 20 4123 5678',
   phoneTel: '+912041235678',
   emergencyDisplay: '+91 90000 11222',
   emergencyTel: '+919000011222',
-  email: 'care@Santkrupa Hospitalhospital.in',
+  email: 'care@संतकृपा हॉस्पिटलhospital.in',
   address: 'Alandi Road, Near Alandi Devachi, Pune, Maharashtra 412105',
   opdHours: 'OPD: Mon-Sat, 9:00 AM - 8:00 PM',
 }
@@ -67,7 +67,7 @@ function Navbar() {
               <Plus className="h-5 w-5" strokeWidth={2.6} />
             </span>
             <span className={`font-display font-bold text-lg tracking-tight ${scrolled ? 'text-ink' : 'text-white'}`}>
-              Santkrupa Hospital 
+              संतकृपा हॉस्पिटल 
             </span>
           </a>
 
@@ -110,7 +110,7 @@ function Navbar() {
               <span className="grid h-9 w-9 place-items-center rounded-xl bg-primary">
                 <Plus className="h-5 w-5" strokeWidth={2.6} />
               </span>
-              Santkrupa Hospital
+              संतकृपा हॉस्पिटल
             </span>
             <button onClick={() => setOpen(false)} className="text-white grid h-9 w-9 place-items-center" aria-label="Close menu">
               <X className="h-7 w-7" />
@@ -186,7 +186,7 @@ function Hero() {
           <span className="hero-line-2 block font-serif italic font-medium text-primary-light">like family</span>
         </h1>
         <p className="hero-meta mt-8 max-w-xl text-white/75 text-base sm:text-lg leading-relaxed">
-          Santkrupa Hospital  brings trusted doctors, 24/7 emergency services and modern
+          संतकृपा हॉस्पिटल  brings trusted doctors, 24/7 emergency services and modern
           diagnostics to the heart of Alandi - compassionate treatment, close to home.
         </p>
         <div className="hero-cta mt-10 flex flex-wrap gap-3">
@@ -865,7 +865,7 @@ function Footer() {
             <span className="grid h-9 w-9 place-items-center rounded-xl bg-primary text-white">
               <Plus className="h-5 w-5" strokeWidth={2.6} />
             </span>
-            <span className="font-display font-bold text-lg">Santkrupa Hospital</span>
+            <span className="font-display font-bold text-lg">संतकृपा हॉस्पिटल</span>
           </div>
           <p className="text-white/60 text-sm leading-relaxed max-w-xs mb-5">
             Compassionate multispecialty care serving Alandi and greater Pune - close to home, open around the clock.
@@ -912,7 +912,7 @@ function Footer() {
 
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 py-6 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-white/40 text-xs">(c) {new Date().getFullYear()} Santkrupa Hospital, Alandi, Pune. All rights reserved.</p>
+          <p className="text-white/40 text-xs">(c) {new Date().getFullYear()} संतकृपा हॉस्पिटल, Alandi, Pune. All rights reserved.</p>
           <div className="flex items-center gap-6">
             <Link to="/privacy" className="text-white/50 hover:text-white text-xs transition-colors">Privacy Policy</Link>
             <Link to="/terms" className="text-white/50 hover:text-white text-xs transition-colors">Terms</Link>
