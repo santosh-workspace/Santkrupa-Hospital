@@ -1,4 +1,4 @@
-# Santkrupa Hospital — Website
+# Santkrupa Hospital — Website-1
 
 Marketing website for Santkrupa Hospital, Alandi, Pune.
 Built with React 18, Vite 5, Tailwind CSS 3, and GSAP.
